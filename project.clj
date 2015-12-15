@@ -1,4 +1,4 @@
-(defproject me.arnaudsj.cld "0.1.2"
+(defproject me.arnaudsj/cld "0.1.2"
   :description "Clojure Language Detection wrapper around langdetect java lib"
   :url "https://github.com/arnaudsj/cld"
   :dependencies [[org.clojure/clojure "1.7.0"]
