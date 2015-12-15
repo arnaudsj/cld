@@ -1,8 +1,9 @@
-(defproject cld "0.1.1-SNAPSHOT"
-  :description "Clojure Language Detection"
-  :url "https://github.com/dakrone/cld"
-  :dependencies [[org.clojure/clojure "1.4.0"]
-                 [org.clojars.thnetos/langdetect-lib "1.1"]]
-  :profiles {:dev {:dependencies [[criterium "0.3.0"]]}}
+(defproject me.arnaudsj.cld "0.1.2"
+  :description "Clojure Language Detection wrapper around langdetect java lib"
+  :url "https://github.com/arnaudsj/cld"
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [com.youcruit.com.cybozu.labs/langdetect "1.1.2-20151117"]]
+  :profiles {:dev {:dependencies [[criterium "0.4.3"]]}}
   :resource-paths ["resources"]
-  :warn-on-reflection false)
+  :global-vars {*warn-on-reflection* true
+                *unchecked-math* :warn-on-boxed})

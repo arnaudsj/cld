@@ -19,7 +19,7 @@ to use it.
 Add this to your project.clj:
 
 ```clojure
-[cld "0.1.0"]
+[me.arnaudsj.cld "0.1.2"]
 ```
 
 ```clojure
@@ -74,6 +74,6 @@ Licensed under the Apache Public License, version 2
 
 ## Disclaimer
 
-I don't actually know what any of the French or Japanese sentences
+I don't actually know what any of the Japanese sentences
 mean, there shouldn't be anything offensive in there, but my apologies
 if there is.

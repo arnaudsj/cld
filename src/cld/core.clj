@@ -13,7 +13,7 @@
   "Load the default profiles from the langdetect jar."
   []
   (DetectorFactory/clear)
-  (DetectorFactory/loadProfile))
+  (DetectorFactory/loadProfileFromClassPath))
 
 (defn detect
   "Returns a tuple with the language as the first element and a map of
